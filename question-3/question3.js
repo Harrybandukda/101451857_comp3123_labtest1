@@ -28,7 +28,7 @@ function removeFiles() {
     })
 }   
 
-removeFiles()
+// removeFiles()
 
 function createFiles() {
 
@@ -54,4 +54,4 @@ function createFiles() {
     
 }
 
-// createFiles();
+ createFiles();
