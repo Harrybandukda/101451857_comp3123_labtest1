@@ -14,7 +14,7 @@ function lowerCaseWords(array) {
         .filter(array => typeof array === 'string')
         .map (array => array.toLowerCase());
 
-        (lowercasedStr) 
+        (lowercasedStr.length > 0) 
             ? resolve(lowercasedStr) 
             : reject('Opps: String is not found in th array');
     })
